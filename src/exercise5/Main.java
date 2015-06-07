@@ -21,7 +21,6 @@ public class Main {
 
     private static int getTotalPerLine(int row, int num){
         return num*2-1;
-
     }
 
     private static int getNumSpaces(int row, int num){
