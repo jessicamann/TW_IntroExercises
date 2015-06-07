@@ -25,7 +25,6 @@ public class Main {
     }
 
     private static int getNumSpaces(int row, int num){
-        //return (getTotalPerLine(row, num)-row+1)/2;
         return (getTotalPerLine(row, num)-getNumAsterisks(row))/2;
     }
 
